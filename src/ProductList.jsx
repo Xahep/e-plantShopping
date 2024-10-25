@@ -261,7 +261,7 @@ function ProductList() {
     }
 
     const handleIsAddedToCart = (plant) => {
-        return cart.find((item) => item.name === plant.nam);
+        return cart.find((item) => item.name === plant.name);
     }
 
     return (
