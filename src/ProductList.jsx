@@ -296,7 +296,7 @@ function ProductList() {
                                         <div className='product-title'>{plant.name}</div>
                                         <div className=''>{plant.description}</div>
                                         <div className='product-price'>{plant.cost}</div>
-                                        <button className={handleIsAddedToCart(plant) ? 'added-to-cart product-button' : 'product-button'} onClick={() => handleAddToCart(plant)} disabled={handleIsAddedToCart(plant)}>{handleIsAddedToCart(plant) ? 'Added to cart' : 'Add to Cart'}</button>
+                                        <button className={handleIsAddedToCart(plant) ? 'added-to-cart product-button' : 'product-button'} onClick={() => handleAddToCart(plant)} disabled={handleIsAddedToCart(plant)}>{handleIsAddedToCart(plant) ? 'Added' : 'Add to Cart'}</button>
                                     </div>
                                 ))}
                             </div>
